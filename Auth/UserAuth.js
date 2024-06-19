@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const db = require('../firebase');
-require('dotenv').config();
+
 
 const router = express.Router();
 

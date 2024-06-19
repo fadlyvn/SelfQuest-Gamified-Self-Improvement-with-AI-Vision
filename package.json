@@ -4,13 +4,17 @@
   "description": "Gamified Self-Improvement with AI & Vision",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Afta",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/firestore": "^7.8.0",
+    "bcryptjs": "^2.4.3",
     "expres": "^0.0.5",
-    "express": "^4.19.2"
-  }
+    "express": "^4.19.2",
+    "firebase": "^10.12.2"
+  },
+  "keywords": []
 }
