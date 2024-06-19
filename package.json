@@ -9,6 +9,8 @@
   "author": "Afta",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/firestore": "^7.8.0"
+    "@google-cloud/firestore": "^7.8.0",
+    "expres": "^0.0.5",
+    "express": "^4.19.2"
   }
 }
